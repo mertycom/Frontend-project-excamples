@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#page > header{
+    text-align: center;
+}
+
+main{
+    border: 2px solid black;
+    padding: 24px;
+    margin: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > div {
+    margin: 8px;
+    text-align:center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
