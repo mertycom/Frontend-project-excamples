@@ -6,6 +6,6 @@ export default function hamburgerNav(){
     btnEl.addEventListener('click',handleClick)
     
     function handleClick(e){
-        navEl.classList.toogle('active');
+        navEl.classList.toggle('active');
     }
 }

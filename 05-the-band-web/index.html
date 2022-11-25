@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
 		<link
 			rel="stylesheet"
-			href="path/to/font-awesome/css/font-awesome.min.css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
 	</head>
 
@@ -23,7 +23,7 @@
 			<header>
 				<a href="#">HOME</a>
 				<button type="button" class="btn-hamburger">
-					<i class="fa fa-bars">=</i>
+					<i class="fa fa-bars"></i>
 				</button>
 				<nav class="nav-main">
 					<ul>
@@ -52,8 +52,132 @@
 				<section class="slider">
 					<img src="img/slider-1.jpg" alt="" />
 				</section>
+
+				<section class="info">
+					<h2>THE BAND</h2>
+					<h3>We love music</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+						dolore possimus omnis rerum eligendi hic blanditiis sapiente velit,
+						nostrum, aperiam assumenda totam distinctio exercitationem!
+						Perferendis voluptatibus explicabo reprehenderit odio alias. Lorem
+						ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquid
+						architecto voluptatibus cum recusandae iure officia eaque maxime,
+						vero dolorum eveniet a omnis velit atque ad eos? Laboriosam,
+						blanditiis aspernatur.
+					</p>
+
+					<ul class="band-list">
+						<li>
+							<figure>
+								<figcaption>Name</figcaption>
+								<img src="img/bandmember.jpg" alt="" />
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>Name</figcaption>
+								<img src="img/bandmember.jpg" alt="" />
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>Name</figcaption>
+								<img src="img/bandmember.jpg" alt="" />
+							</figure>
+						</li>
+					</ul>
+				</section>
+				<section class="dark-ui tour-list">
+					<h2>Tour Dates</h2>
+					<h3>Remember to book your tickets</h3>
+
+					<ul>
+						<li>
+							<header>
+								<img src="img/newyork.jpg" alt="" />
+							</header>
+							<div><h2>New York</h2></div>
+							<footer>
+								<a href="#" class="btn-type-1">Buy Tickets</a>
+							</footer>
+						</li>
+						<li>
+							<header><img src="img/paris.jpg" alt="" /></header>
+							<div><h2>Paris</h2></div>
+							<footer>
+								<a href="#" class="btn-type-1">Buy Tickets</a>
+							</footer>
+						</li>
+						<li>
+							<header><img src="img/sanfran.jpg" alt="" /></header>
+							<div><h2>Sanfransico</h2></div>
+							<footer>
+								<a href="#" class="btn-type-1">Buy Tickets</a>
+							</footer>
+						</li>
+					</ul>
+				</section>
 			</main>
-			<footer>f</footer>
+			<footer>
+				<!-- The Contact Section -->
+				<div id="contact">
+					<h2 class="contact-header">CONTACT</h2>
+					<p class="contact-header"><i>Fan? Drop a note!</i></p>
+					<div class="contact-page">
+						<div class="contact-info">
+							<i class="fa fa-map-marker"> Chicago, US</i>
+							<i class="fa fa-phone"> Phone: +00 151515</i>
+							<i class="fa fa-envelope"> Email: mail@mail.com </i>
+						</div>
+						<div class="contact-inputs">
+							<form action="/action_page.php" target="_blank">
+								<div>
+									<div>
+										<input
+											type="text"
+											placeholder="Name"
+											required
+											name="Name"
+										/>
+									</div>
+									<div>
+										<input
+											type="text"
+											placeholder="Email"
+											required
+											name="Email"
+										/>
+									</div>
+								</div>
+								<input
+									type="text"
+									placeholder="Message"
+									required
+									name="Message"
+								/>
+								<button
+									class="w3-button w3-black w3-section w3-right"
+									type="submit"
+								>
+									SEND
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!-- Image of location/map -->
+				<img src="img/map.jpg" class="map-img" style="width: 100%" />
+				<div class="social-media">
+					<i class="fa fa-facebook-official w3-hover-opacity"></i>
+					<i class="fa fa-instagram w3-hover-opacity"></i>
+					<i class="fa fa-snapchat w3-hover-opacity"></i>
+					<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+					<i class="fa fa-twitter w3-hover-opacity"></i>
+					<i class="fa fa-linkedin w3-hover-opacity"></i>
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>

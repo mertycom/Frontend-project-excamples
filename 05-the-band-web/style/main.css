@@ -2,6 +2,7 @@
 
 *{
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root{
@@ -12,12 +13,13 @@ a{
     color: inherit;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
+h2{
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-#page{
-    border: 2px solid red;
+body{
+    font-family: 'Lato', sans-serif;
 }
 
 #page > header {
@@ -58,18 +60,166 @@ body{
     right: 16px;
 }
 
-.slider{
+.slider img{
     width: 100%;
     object-fit: cover;
 }
 
+
 main {
-    border: 2px solid black;
-    height: 1488px;
-    background-color: orange;
     padding-top: 44px;
+    text-align: center;
+}
+
+main > section.info{
+    margin: 30px;
+}
+
+main > section.info h2{
+    padding: 20px;
+}
+
+main > section.info p{
+    text-align: left;
+    padding: 20px;
 }
 
 #page > footer {
-   border: 2px solid blue;
+   display: flex;
+   justify-content: center;
+}
+
+.dark-ui{
+    background-color: black;
+    color: white;
+}
+
+section.info .band-list{
+    padding: 30px;
+}
+section.info .band-list figcaption{
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+section.tour-list ul{
+ color: black;
+ text-align: left;
+ 
+}
+
+section.tour-list li{
+background-color: white;
+margin-bottom: 16px;
+}
+
+section.tour-list li a{
+margin: 8px 0;
+}
+
+section.tour-list img{
+    width: 100%;
+    object-fit: cover;
+}
+
+section.tour-list ul li{
+    margin: 16px;
+    padding: 8px;
+}
+
+.btn-type-1{
+    display: inline-block;
+    padding: 16px 24px;
+    background-color: black;
+    color: white;
+}
+
+.nav-social{
+    display: flex;
+}
+
+.nav-social ul{
+    display: flex;
+    gap: 16px;
+}
+
+.tour-list {
+        padding: 30px;
+}
+
+#contact{
+    padding: 20px;  
+}
+.contact-header{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-page{ 
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.contact-info i{
+    padding: 3px 10px; 
+    display: block;
+    font-size: 16px;
+}
+
+#page footer {
+    display: block;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin:30px 0px;
+}
+
+.social-media i{
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width:600px) {
+    
+    .btn-hamburger{
+        display: none;
+    }
+    .nav-main{
+        display: flex;
+    }
+    #page header{
+        display: flex;
+    }
+    .nav-main ul{
+        display: flex;
+    }
+    .nav-main a{
+        width: auto;
+    }
+    .band-list{
+        display: flex;
+        justify-content: center;    
+    }
+    .band-list li{
+        padding: 40px;  
+    }
+
+    .info p{ 
+        text-align: center;
+        margin: 0 20%;
+    }
+
+    .tour-list ul{
+        display: flex;
+        justify-content: center;
+    }
+
 }
